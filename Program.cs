@@ -1,5 +1,6 @@
 ﻿using Lib;
-namespace Metodo_carte
+using Game;
+namespace MainFile
 {
     internal class Program
     {
@@ -10,7 +11,10 @@ namespace Metodo_carte
             Random rnd = new Random();
 
             int idx;
+            int punteggio = 0;
             RandCarta(out idx);
+
+            BlackJack.Punteggio(idx);
 
             Carte.Disegnacarte(idx);
         }

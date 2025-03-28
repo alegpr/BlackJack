@@ -1,6 +1,4 @@
-﻿
-
-namespace Lib
+﻿namespace Lib
 {
     internal class Carte
     {
